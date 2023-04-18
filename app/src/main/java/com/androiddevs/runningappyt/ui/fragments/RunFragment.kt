@@ -50,7 +50,7 @@ class RunFragment : Fragment(R.layout.fragment_run), EasyPermissions.PermissionC
                     1 -> viewModel.sortRuns(SortType.RUNNING_TIME)
                     2 -> viewModel.sortRuns(SortType.DISTANCE)
                     3 -> viewModel.sortRuns(SortType.AVG_SPEED)
-                    4 -> viewModel.sortRuns(SortType.CALORIES_BURNED) //c
+                    4 -> viewModel.sortRuns(SortType.CALORIES_BURNED)
                 }
             }
 
